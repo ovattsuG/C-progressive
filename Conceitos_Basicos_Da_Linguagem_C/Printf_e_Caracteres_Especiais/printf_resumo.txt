@@ -1,0 +1,21 @@
+Resumo – printf() e Caracteres Especiais em C
+
+printf(): função usada para imprimir mensagens na tela. Aceita strings (texto entre aspas duplas " ").
+
+Caracteres especiais: usados para exibir símbolos que o C normalmente interpreta de outra forma. São escritos com \ antes.
+
+Principais exemplos:
+
+\" → imprime aspas duplas (") no texto.
+
+\\ → imprime uma barra invertida (\).
+
+\n → quebra de linha (enter).
+
+\r → retorna o cursor para o início da linha (carriage return).
+
+\t → tabulação horizontal (TAB).
+
+\7 ou \a → emite um som (beep).
+
+💡 O \ indica ao compilador que o caractere seguinte terá um significado especial.
