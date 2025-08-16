@@ -1,0 +1,23 @@
+Aqui está o resumo simplificado sobre o tipo char em C:
+
+O que é: char armazena 1 caractere (1 byte).
+
+Declaração: char letra;
+
+Inicialização: sempre entre aspas simples → char letra = 'C';
+
+Case sensitive: 'c' é diferente de 'C'.
+
+Impressão: usamos %c no printf.
+
+Espaço e caracteres especiais também são válidos → ' ', '\n', '\t'.
+
+Tabela ASCII: cada caractere tem um número associado. Ex.: 'C' = 67, 'o' = 111.
+
+Exemplo: char x = 67; é o mesmo que char x = 'C';.
+
+Podemos imprimir pelo código ASCII → printf("%c%c", 111, 105); → imprime "oi".
+
+Strings = conjunto de char (vamos estudar depois).
+
+👉 Em resumo: char guarda um único caractere, pode ser escrito entre aspas simples ou via código ASCII, e é exibido com %c.

@@ -1,0 +1,62 @@
+O que são float e double
+
+float: usado para números decimais com precisão simples (aprox. 7 casas decimais).
+
+double: usado para números decimais com precisão dupla (aprox. 15–16 casas decimais).
+
+👉 Ambos servem para representar números reais (com casas decimais), como notas, preços, porcentagens, medidas etc.
+👉 A diferença principal é a precisão: double consegue representar números com muito mais detalhes.
+
+✅ Declaração e inicialização
+float pi = 3.14;
+double juros = 1.32101;
+
+
+Ou:
+
+float pi;
+pi = 3.14;
+
+
+📌 Importante: sempre usar ponto (.) e não vírgula (,).
+Exemplo: 1.99 e não 1,99.
+
+✅ Diferença prática
+
+Use float quando não precisar de muita precisão (ex: média escolar, taxa simples, medidas comuns).
+
+Use double quando precisar de precisão maior (ex: cálculos de engenharia, física, astronomia).
+
+Exemplo:
+
+float pi = 3.1415;          // precisão simples
+double piPrecisao = 3.141592653589793;  // precisão dupla
+
+✅ Impressão no printf
+
+%f → imprime números decimais.
+
+%.nf → imprime com n casas decimais.
+
+Exemplo:
+
+printf("%.2f", 3.1415);  // saída: 3.14
+printf("%.6f", 3.1415);  // saída: 3.141500
+
+✅ Notação científica
+
+Podemos representar números muito grandes ou muito pequenos com E (exponencial):
+
+float salario = 1E6;   // 1 * 10^6 = 1000000
+float valor   = 2E-3;  // 2 * 10^-3 = 0.002
+
+
+📌 Resumo final:
+
+float: ocupa 4 bytes → até ~7 casas decimais.
+
+double: ocupa 8 bytes → até ~15 casas decimais.
+
+Use %f no printf, ajustando casas com %.nf.
+
+Suportam notação científica (E).
