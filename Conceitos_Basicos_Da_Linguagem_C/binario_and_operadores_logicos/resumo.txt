@@ -1,0 +1,68 @@
+# 📌 Resumo – Sistema Binário e Valores Lógicos em C
+
+## 🔢 Sistema Binário
+- Computadores trabalham apenas com **0** e **1** (bits).  
+- Tudo em tecnologia (textos, imagens, vídeos, programas) é armazenado como combinações de 0s e 1s.  
+- Enquanto usamos o **sistema decimal (0–9)** no dia a dia, o computador utiliza o **binário (0 e 1)**.  
+
+---
+
+## ✅ Valores Lógicos (Booleanos) em C
+- Em C não existe um tipo `boolean` nativo como em outras linguagens.  
+- O valor **0** representa **falso (false)**.  
+- Qualquer valor diferente de 0 representa **verdadeiro (true)** → pode ser `1`, `2`, `-10`, `1000` etc.  
+- Programas geralmente retornam:
+  - `0` → execução sem erros.  
+  - Diferente de `0` → indica algum erro (cada número pode representar um erro específico).  
+
+---
+
+## ⚙️ Operadores Lógicos em C
+Permitem combinar condições usando **true (1)** ou **false (0)**.  
+
+### 1. E lógico (&&)  
+- Verdadeiro somente se **todas** as condições forem verdadeiras.  
+- Ex.: `1 && 1 = 1` / `1 && 0 = 0`.  
+
+### 2. OU lógico (||)  
+- Verdadeiro se **pelo menos uma** condição for verdadeira.  
+- Ex.: `1 || 0 = 1` / `0 || 0 = 0`.  
+
+### 3. Negação lógica (!)  
+- Inverte o valor lógico.  
+- Ex.: `!1 = 0` / `!0 = 1`.  
+
+---
+
+## 📊 Tabela Verdade
+
+### Operador AND (&&)
+| A | B | A && B |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   0    |
+| 1 | 0 |   0    |
+| 1 | 1 |   1    |
+
+### Operador OR (||)
+| A | B | A \|\| B |
+|---|---|----------|
+| 0 | 0 |    0     |
+| 0 | 1 |    1     |
+| 1 | 0 |    1     |
+| 1 | 1 |    1     |
+
+### Operador NOT (!)
+| A | !A |
+|---|----|
+| 0 |  1 |
+| 1 |  0 |
+
+---
+
+📌 **Resumo Final:**  
+O sistema binário é a base da computação (0 e 1). Em C, esses valores são usados também como **lógicos**:  
+- `0 = false`  
+- `≠0 = true`  
+
+Com isso, podemos combinar condições através dos operadores `&&`, `||` e `!`, fundamentais para estruturas de decisão como `if`, `while`, entre outras.
