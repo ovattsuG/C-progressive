@@ -1,0 +1,37 @@
+Em vez de escrever:
+x = x + 2;
+
+Podemos escrever:
+x += 2;
+
+
+-=
+Em vez de escrever:
+x = x - 1;
+
+Podemos escrever:
+x -= 1;
+
+
+*=
+Em vez de escrever:
+x = x * 2;
+
+Podemos escrever:
+x *= 2;
+
+
+/=
+Em vez de escrever:
+x = x / 2;
+
+Podemos escrever:
+x /= 2;
+
+
+%=
+Em vez de escrever:
+x = x % 2;
+
+Podemos escrever:
+x %= 2;
