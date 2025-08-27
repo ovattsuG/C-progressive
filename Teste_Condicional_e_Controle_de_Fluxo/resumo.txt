@@ -1,0 +1,93 @@
+# Estruturas Condicionais em C: IF e ELSE
+
+## 🔹 O que é o `if`
+- `if` significa **"se"**.
+- Serve para **testar uma condição** e executar um bloco de código apenas se ela for **verdadeira**.
+- Em C:
+  - Qualquer valor **≠ 0** → verdadeiro (`true`).
+  - Valor **0** → falso (`false`).
+
+### Sintaxe:
+```c
+if (condição) {
+   // código executado se a condição for verdadeira
+}
+Exemplo: condição sempre verdadeira
+c
+Copiar código
+#include <stdio.h>
+
+int main() {
+    if (1) {
+        printf("Esse teste condicional é verdadeiro");
+    }
+}
+➡ Sempre executa, pois 1 é verdadeiro.
+
+Exemplo: condição sempre falsa
+c
+Copiar código
+#include <stdio.h>
+
+int main() {
+    if (0) {
+        printf("Somente programadores verão essa mensagem");
+    }
+
+    printf("Hello, World");
+}
+➡ Como 0 é falso, o bloco do if não executa e só aparece "Hello, World".
+
+🔹 O que é o else
+else significa "senão".
+
+Só pode existir junto com o if.
+
+Executa o código alternativo quando a condição do if é falsa.
+
+Não possui condição própria: sua condição é implícita (o oposto do if).
+
+Sintaxe:
+c
+Copiar código
+if (condição) {
+   // executa se condição for verdadeira
+} else {
+   // executa se condição for falsa
+}
+Exemplo:
+c
+Copiar código
+#include <stdio.h>
+
+int main() {
+    if (0) {
+        printf("Somente programadores verão essa mensagem");
+    } else {
+        printf("Hello, World!");
+    }
+}
+➡ Como 0 é falso, o else roda e imprime "Hello, World!".
+
+🔹 Tabela Comparativa
+Estrutura	Condição	Executa quando	Exemplo rápido
+if	(condição)	Condição verdadeira	if (5 > 2) { printf("Verdadeiro"); }
+else	implícita	Condição do if é falsa	else { printf("Falso"); }
+
+🔹 Fluxo Lógico (ASCII)
+pgsql
+Copiar código
+         +----------------+
+         |   if(condição) |
+         +----------------+
+                 |
+        +--------+--------+
+        |                 |
+   Verdadeiro         Falso
+        |                 |
++----------------+   +-------------+
+| Bloco do  IF   |   | Bloco do ELSE|
++----------------+   +-------------+
+✅ Resumindo
+O if permite executar código somente se uma condição for verdadeira,
+e o else garante um caminho alternativo caso ela seja falsa
