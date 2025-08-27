@@ -1,0 +1,54 @@
+# 🧠 Operadores de Comparação em C
+
+## ✅ Igualdade: `==`
+- Compara se dois valores são iguais.
+- Retorna `true` se forem iguais, `false` se não forem.
+- **Exemplo:** `x == y` → "x é igual a y?"
+
+## ⚠️ Diferença entre `=` e `==`
+- `=` → atribuição (ex: `x = 1`)
+- `==` → comparação (ex: `x == 1`)
+
+---
+
+## 🔼 Maior que: `>`
+- Verifica se o valor da esquerda é maior que o da direita.
+- **Exemplo:** `idade > 17` → maior de idade?
+
+---
+
+## 🔽 Menor que: `<`
+- Verifica se o valor da esquerda é menor que o da direita.
+- **Exemplo:** `idade < 18` → menor de idade?
+
+---
+
+## 🔼🔁 Maior ou igual: `>=`
+- Verifica se o valor da esquerda é maior ou igual ao da direita.
+- **Exemplo:** `idade >= 45` → precisa fazer exame?
+
+---
+
+## 🔽🔁 Menor ou igual: `<=`
+- Verifica se o valor da esquerda é menor ou igual ao da direita.
+- **Exemplo:** `idade <= 44` → ainda não precisa fazer exame.
+
+---
+
+## ❌ Diferente de: `!=`
+- Verifica se dois valores são diferentes.
+- Retorna `true` se forem diferentes, `false` se forem iguais.
+- **Exemplo:** `numero != 7` → senha errada?
+
+---
+
+## ➗ Módulo (resto da divisão): `%`
+- Retorna o resto da divisão inteira.
+- Usado para verificar múltiplos ou se um número é par.
+- **Exemplo:** `numero % 2 == 0` → número é par?
+
+---
+
+## 🧠 Dica para iniciantes
+- Sempre revise se está usando `=` ou `==` corretamente.
+- Comparações retornam valores lógicos (`true` ou `false`), atribuições não.
