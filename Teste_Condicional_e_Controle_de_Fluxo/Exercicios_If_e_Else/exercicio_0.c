@@ -9,8 +9,6 @@ int main(){
     printf("##############################\nInsira Dois numeros para descobir qual o maior\n##############################\n");
     printf("Digite o primeiro numero: \n");
     scanf("%d", &primeiro_numero);
-    
-    fflush(stdin);
 
     printf("Digite o segundo numero: ");
     scanf("%d", &segundo_numero);
