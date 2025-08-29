@@ -1,0 +1,11 @@
+Desafio 1. Crie um programa em C que peça um número ao usuário e armazene ele na variável x. Depois peça outro número e armazene na variável y.
+Mostre esses números. Em seguida, faça com que x passe a ter o valor de y, e que y passe a ter o valor de x.
+Dica: você vai precisar usar outra variável.
+
+Desafio 2. Escreva um programa que pede os coeficientes de uma equação do segundo grau e exibe as raízes da equação, sejam elas reais ou complexas.
+
+Desafio 3. Crie um programa em C que recebe uma nota (entre 0.0 e 10.0) e checa se você passou direto, ficou de recuperação ou foi reprovado na matéria.
+A regra é a seguinte:
+Nota 7 ou mais: passou direto
+Entre 4 e 7: tem direito de fazer uma prova de recuperação
+Abaixo de 4: reprovado direto
