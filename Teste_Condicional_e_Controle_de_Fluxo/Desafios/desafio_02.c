@@ -23,8 +23,9 @@ int main(){
     // -b² * 4ac 
 
     double delta = b * b - (4 * a * c);
+if (a != 0){
 
-    if (delta >= 0) {
+     if (delta >= 0) {
         double x1 = (-b + sqrt(delta)) / (2*a);
         double x2 = (-b - sqrt(delta)) / (2*a);
         printf("Raízes reais:\n");
@@ -37,5 +38,9 @@ int main(){
         printf("x1 = %.2f + %.2fi\n", parte_real, parte_imaginaria);
         printf("x2 = %.2f - %.2fi\n", parte_real, parte_imaginaria);
     }
+
+} else{
+    printf("Em uma equação de 2° o a deve ser diferente de 0!!!");
+}
 
 }
