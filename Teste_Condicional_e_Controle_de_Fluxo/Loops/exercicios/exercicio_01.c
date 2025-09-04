@@ -7,7 +7,7 @@ Escreva um aplicativo em C mostra todos os números ímpares de 1 até 100.
 
 int main(){
 
-    int numero = 0;
+    int numero = 1;
     printf("Os numeros Impares entre 0 e 100 são: \n");
     while (numero <= 100)
     {

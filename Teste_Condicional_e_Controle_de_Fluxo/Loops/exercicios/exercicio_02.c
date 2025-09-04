@@ -7,7 +7,7 @@ Escreva um aplicativo em C mostra todos os números pares de 1 até 100.
 
 int main(){
 
-    int numero = 0;
+    int numero = 1;
     printf("Os numeros pares entre 0 e 100 sao: \n");
 
     while (numero <= 100)
