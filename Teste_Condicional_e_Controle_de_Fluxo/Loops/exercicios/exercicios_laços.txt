@@ -1,0 +1,51 @@
+1. Programa em C que mostra os números ímpares
+Escreva um aplicativo em C mostra todos os números ímpares de 1 até 100.
+
+2. Programa em C que mostra os números pares
+Escreva um aplicativo em C mostra todos os números pares de 1 até 100.
+
+3. Programa em C que mostra os números pares e ímpares 
+Escreva um aplicativo em C que recebe inteiro e mostra os números pares e ímpares (separados), de 1 até esse inteiro.
+
+
+4. Programa em C que calcula a média das notas de uma turma
+Escreva um programa que pergunte ao usuário quantos alunos tem na sala dele.
+Em seguida, através de um laço while, pede ao usuário para que entre com as notas de todos os alunos da sala, um por vez.
+
+Por fim, o programa mostra a média, aritmética, da turma.
+
+5. Achando o maior número
+Achar o maior, menor, média e organizar números ou sequências são os algoritmos mais importantes e estudados em Computação. Em C não poderia ser diferente.
+Em nosso curso, obviamente, também não será diferente.
+
+Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final
+mostre qual destes números é o maior.
+
+6. Achando os dois maiores números
+Escreva um programa em C que solicita 10 números ao usuário, através de um laço while, e ao final
+mostre os dois maiores números digitados pelo usuário.
+
+7. Quadrado de asteriscos
+Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
+Para lado igual a 5:
+*****
+*****
+*****
+*****
+*****
+
+8. Quadrado de asteriscos e espaços em branco
+Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos e espaços em branco. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
+Para lado igual a 5:
+*****
+*    *
+*    *
+*    *
+*****
+
+9. Tabuada em C
+Escreva um programa que pergunta um número ao usuário, e mostra sua tabuada completa (de 1 até 10).
+
+10. Tabela ASCII em C
+Se você lembrar bem, quando estudamos as variáveis do tipo caractere, char, dissemos que, na verdade, ela eram representadas por inteiros de 0 até 255.
+Mostre a tabela completa do código ASCII.
