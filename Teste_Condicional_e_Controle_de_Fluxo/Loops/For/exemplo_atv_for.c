@@ -1,6 +1,7 @@
+// exemplo for calcular P.A
 #include <stdio.h>
 
-int main(void)
+int main()
 {
         int termos,
             razao,
@@ -17,6 +18,9 @@ int main(void)
         scanf("%d", &inicial);
 
         for(count = 1; count <= termos ; count++)
+        {
             printf("Termo %d: %d\n", count, (inicial + (count-1)*razao) );
+        }
+            
 
 }
