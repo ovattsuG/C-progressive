@@ -1,0 +1,21 @@
+# 🔄 Laço `do while` em C
+
+---
+
+## 📌 O que é?
+- Estrutura de repetição que **garante pelo menos uma execução** do bloco de código.  
+- A condição é testada **apenas no final** do laço.  
+
+---
+
+## 🛠️ Diferença para o `while`
+- `while` → só roda se a condição **for verdadeira desde o início**.  
+- `do while` → roda **sempre uma vez**, mesmo que a condição seja falsa.  
+
+---
+
+## ⚡ Sintaxe
+```c
+do {
+    // código a ser repetido
+} while (condição);
