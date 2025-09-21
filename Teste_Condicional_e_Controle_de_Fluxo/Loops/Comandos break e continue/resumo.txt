@@ -1,0 +1,34 @@
+# 🚀 Comandos `break` e `continue` em C
+
+---
+
+## 🔴 `break`
+
+- Interrompe **imediatamente** a execução de um laço (`for`, `while`, `do while`) ou de um `switch`.  
+- Usado para **evitar processamento desnecessário**, encerrando o loop assim que a condição desejada é satisfeita.  
+
+### 📝 Exemplo
+Procurar o primeiro número divisível por **11, 13 e 17** entre `1` e `1.000.000`:
+
+- ❌ **Sem `break`** → o laço continua até o fim, desperdiçando processamento.  
+- ✅ **Com `break`** → o laço para assim que encontra o número (`2431`), tornando o código muito mais eficiente.
+
+---
+
+## 🟡 `continue`
+
+- **Não encerra o laço inteiro**, apenas pula a **iteração atual** e segue para a próxima.  
+- Útil quando queremos **ignorar certos casos dentro do loop**.
+
+### 📝 Exemplo
+Somar os números de **1 a 100**, exceto os múltiplos de `5`:
+
+- Se o número **for múltiplo de 5** → `continue` faz pular a iteração.  
+- Caso contrário → o número é somado normalmente.  
+
+---
+
+## ⚖️ Diferença principal
+
+- 🔴 **`break`** → encerra o laço de vez.  
+- 🟡 **`continue`** → apenas pula para a próxima iteração.  
