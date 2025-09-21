@@ -1,0 +1,36 @@
+# 🔀 Comando `switch` em C
+
+---
+
+## 📌 O que é?
+- Estrutura condicional usada para **testar igualdades**.  
+- Alternativa ao uso repetido de vários `if/else`.  
+- Muito útil em **menus** ou quando há várias opções fixas para comparar.
+
+---
+
+## 🛠️ Sintaxe básica
+
+```c
+switch (variavel) {
+    case valor1:
+        // comandos
+        break;
+
+    case valor2:
+        // comandos
+        break;
+
+    default:
+        // comandos se nenhum caso for satisfeito
+}
+
+exemplo:
+
+switch(operacao) {
+    case '+': printf("%.2f + %.2f = %.2f", n1, n2, n1+n2); break;
+    case '-': printf("%.2f - %.2f = %.2f", n1, n2, n1-n2); break;
+    case '*': printf("%.2f * %.2f = %.2f", n1, n2, n1*n2); break;
+    case '/': printf("%.2f / %.2f = %.2f", n1, n2, n1/n2); break;
+    default:  printf("Operação inválida.");
+}
