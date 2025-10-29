@@ -1,0 +1,20 @@
+Parâmetros são variáveis que a função recebe. O número e tipo de parâmetros são pré estabelecidos na declaração da função.
+E essa declaração, do(s) tipo(s) e nome(s) da(s) variável(eis), acontece dentro dos parêntesis.
+
+Por exemplo, se formos criar uma função que recebe e soma dois números, declaramos a função com os tipos de variáveis (inteiro ou float, por exemplo) e o nome dessas variáveis:
+
+void soma(int a, int b)
+{
+}
+
+Pronto, declaramos uma função com dois parâmetros.
+Agora, dentro dessa função, podemos usar 'a' e 'b'. É como se elas tivessem sido declaradas entre parêntesis.
+
+E quais os valores desses parâmetros?
+São os que você vai passar. Esses valores são os argumentos.
+
+Por exemplo, se você invocar a função: soma(1,2)
+Os argumentos são 1 e 2, onde os parâmetros 'a' e 'b' vão receber os valores 1 e 2, respectivamente.
+Ou seja, o valor que você colocar primeiro, vai pra primeira variável, e o segundo valor dentro dos parêntesis será o segundo parâmetros, e assim vai.
+
+Note agora que essas funções não são estáticas, eles mudam de acordo com os valores que você passa pra ela.
