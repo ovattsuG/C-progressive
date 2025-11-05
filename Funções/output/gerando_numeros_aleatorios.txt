@@ -1,0 +1,25 @@
+
+Geração de Números Aleatórios em C
+
+**1. Importância dos Números Aleatórios**
+- Usados em jogos, simulações, segurança, etc.
+- São pseudo-aleatórios, pois são gerados por algoritmos.
+
+**2. Funções principais**
+- `rand()` → Gera número entre 0 e `RAND_MAX`.
+- `srand(seed)` → Define a semente para `rand()`.
+
+**3. Bibliotecas necessárias**
+- `#include <stdio.h>`
+- `#include <stdlib.h>`
+- `#include <time.h>`
+
+**4. Gerando números em faixas específicas**
+
+| Faixa desejada         | Código em C                          |
+|------------------------|--------------------------------------|
+| 0 a 9                  | `x = rand() % 10;`                   |
+| 1 a 10                 | `x = 1 + (rand() % 10);`             |
+| 0.00 a 1.00 (decimal)  | `x = (rand() % 101) / 100.0;`        |
+
+---
